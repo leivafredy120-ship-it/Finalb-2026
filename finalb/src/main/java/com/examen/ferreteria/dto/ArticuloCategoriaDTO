@@ -1,0 +1,11 @@
+package com.examen.ferreteria.dto;
+
+import java.math.BigDecimal;
+
+public record ArticuloCategoriaDTO(
+        String nombreArticulo,
+        String marca,
+        String nombreCategoria,
+        BigDecimal precio,
+        Integer stock) {
+}
